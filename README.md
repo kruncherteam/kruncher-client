@@ -4,7 +4,10 @@
 
 Kruncher Client is a Python library for interacting with [Kruncher](https://kruncher.ai) data, allowing users to seamlessly access and analyze structured information.
 
-Kruncher is a cutting-edge Data & AI platform designed to streamline investment processes for venture capitalists, incubators, and business angels. It transforms complex data into actionable insights, enhancing decision-making. Contact us at [info@kruncher.ai](mailto:info@kruncher.ai) to explore how Kruncher can elevate your investment strategy.
+Kruncher is a cutting-edge Data & AI platform designed to streamline investment processes for venture capitalists, incubators, and business angels. It transforms complex data into actionable insights, enhancing decision-making. 
+
+Register to [kruncher.ai](https://kruncher.ai) and create new project and analysis of documents and company!
+Contact us at [info@kruncher.ai](mailto:info@kruncher.ai) to explore how Kruncher can elevate your investment strategy.
 
 ---
 
