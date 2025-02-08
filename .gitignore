@@ -1,2 +1,7 @@
 .env
 *.pyc
+.venv/*
+*.gz
+*.whl
+*egg-info
+build/*

@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kruncherclient"
-version = "0.1.0"
+version = "0.1.2"
 description = "A Python client for the Kruncher API"
 authors = [{ name = "Andrea Dorigo", email = "andrea@kruncher.ai" }]
 license = { file = "LICENSE" }
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.09"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",

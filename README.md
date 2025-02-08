@@ -4,20 +4,21 @@
 
 Kruncher Client is a Python library for interacting with [Kruncher](https://kruncher.ai) data, allowing users to seamlessly access and analyze structured information.
 
+## 📚 Google Colab Demo
+
+You can explore the Kruncher Client with our interactive Google Colab notebook:
+
+[Open in Google Colab](https://colab.research.google.com/drive/1XQv0EyXnjN8XKHKJOiTtiCHnVykzpcmY?usp=sharing)
+
+---
+
 ## 🚀 Installation
 
-To install the `kruncher-client` library, use pip:
+To install the `kruncherclient` library, use pip:
 
 ```bash
-pip install kruncher-client
+pip install kruncherclient
 ```
-
-<!-- Alternatively, install dependencies directly from `requirements.txt`:
-
-```bash
-pip install -r requirements.txt
-``` -->
-
 ---
 
 ## 🔑 API Key Setup
@@ -59,8 +60,8 @@ client = KruncherClient(api_key='your_api_key_here')
 client = KruncherClient()
 
 # Fetch projects
-df_projects = client.get_projects(page=0)
-print(df_projects)
+projects_json = client.get_projects(page=0)
+print(projects_json)
 
 # Fetch projects as a DataFrame
 projects_df = client.get_projects_df_full(page=0)
@@ -70,6 +71,15 @@ print(projects_df)
 analysis_id = 'your_analysis_id_here'
 analysis_details = client.get_analysis_detail(analysis_id=analysis_id)
 print(analysis_details)
+
+# Fetch analysis details as json object containing different pre-built dataframes
+analysis_detail_df = get_analysis_detail_df(analysis_id=analysis_id)
+print(analysis_detail_df)
+
+# Fetch analysis details as complete dataframe row with 200+ datapoints
+analysis_df_full = get_analysis_df_full(analysis_id=analysis_id)
+print(analysis_df_full)
+
 ```
 
 ---
@@ -90,5 +100,11 @@ For any issues, feel free to reach out:
 - 📧 **Support**: [info@kruncher.ai](mailto:info@kruncher.ai)
 - 🛠 **GitHub Issues**: [Report Issues](https://github.com/your-repo/issues)
 
-Enjoy using `kruncher-client`! 🚀
+Enjoy using `kruncherclient`! 🚀
+
+## 🌟 About Kruncher
+
+Kruncher is a cutting-edge Data & AI platform designed to streamline investment processes for venture capitalists, incubators, and business angels. It transforms complex data into actionable insights, enhancing decision-making. Contact us at [info@kruncher.ai](mailto:info@kruncher.ai) to explore how Kruncher can elevate your investment strategy.
+
+---
 
